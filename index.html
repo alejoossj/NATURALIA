@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Naturalia — Bebidas naturales artesanales. Horchata y Jamaica preparadas con ingredientes 100% naturales. Refrescantes, auténticas y llenas de sabor." />
+  <title>Naturalia — Bebidas Naturales Artesanales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ====== NAV ====== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">NATURALIA</a>
+      <ul class="nav-links">
+        <li><a href="#menu" class="nav-link">Menú</a></li>
+        <li><a href="#productos" class="nav-link">Productos</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+      </ul>
+      <a href="#menu" class="nav-cta" id="nav-cta-btn">Ver menú</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#menu" class="nav-link">Menú</a></li>
+        <li><a href="#productos" class="nav-link">Productos</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-split">
+      <div class="hero-bg-left"></div>
+      <div class="hero-bg-right"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag">⬤ Bebidas 100% Naturales</div>
+      <h1 class="hero-title">
+        El sabor<br />
+        <em>auténtico</em><br />
+        de Guatemala
+      </h1>
+      <p class="hero-subtitle">
+        Horchata y Jamaica preparadas cada día con ingredientes frescos, sin conservadores y con todo el amor artesanal.
+      </p>
+      <div class="hero-actions">
+        <a href="#productos" class="btn btn-primary" id="hero-primary-btn">Nuestras bebidas</a>
+        <a href="#nosotros" class="btn btn-outline" id="hero-outline-btn">Nuestra historia</a>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hero-img-card hero-img-horchata">
+        <img src="images/horchata.png" alt="Horchata artesanal" />
+        <div class="hero-badge badge-horchata">
+          <span class="badge-name">Horchata</span>
+          <span class="badge-desc">Clásica & cremosa</span>
+        </div>
+      </div>
+      <div class="hero-img-card hero-img-jamaica">
+        <img src="images/jamaica.png" alt="Agua de Jamaica" />
+        <div class="hero-badge badge-jamaica">
+          <span class="badge-name">Jamaica</span>
+          <span class="badge-desc">Refrescante & floral</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ====== MARQUEE ====== -->
+  <div class="marquee-wrapper">
+    <div class="marquee-track">
+      <span>Horchata Artesanal</span>
+      <span class="dot">⬤</span>
+      <span>Agua de Jamaica</span>
+      <span class="dot">⬤</span>
+      <span>Sin Conservadores</span>
+      <span class="dot">⬤</span>
+      <span>Ingredientes Frescos</span>
+      <span class="dot">⬤</span>
+      <span>Receta Tradicional</span>
+      <span class="dot">⬤</span>
+      <span>100% Natural</span>
+      <span class="dot">⬤</span>
+      <span>Horchata Artesanal</span>
+      <span class="dot">⬤</span>
+      <span>Agua de Jamaica</span>
+      <span class="dot">⬤</span>
+      <span>Sin Conservadores</span>
+      <span class="dot">⬤</span>
+      <span>Ingredientes Frescos</span>
+      <span class="dot">⬤</span>
+      <span>Receta Tradicional</span>
+      <span class="dot">⬤</span>
+      <span>100% Natural</span>
+      <span class="dot">⬤</span>
+    </div>
+  </div>
+
+  <!-- ====== PRODUCTS SECTION ====== -->
+  <section class="products" id="productos">
+    <div class="section-header">
+      <span class="section-tag">Productos Estrella</span>
+      <h2 class="section-title">Dos sabores, <em>una tradición</em></h2>
+    </div>
+
+    <!-- Horchata Feature -->
+    <div class="product-feature product-horchata">
+      <div class="product-feature-image">
+        <div class="product-img-bg product-img-bg--cream"></div>
+        <img src="images/horchata.png" alt="Horchata artesanal" class="product-photo" />
+        <div class="product-float-tag tag-cinnamon">Canela artesanal</div>
+        <div class="product-float-tag tag-rice">Arroz molido</div>
+      </div>
+      <div class="product-feature-content">
+        <div class="product-number">01</div>
+        <h3 class="product-name">Horchata</h3>
+        <p class="product-tagline">La bebida que nunca pasa de moda.</p>
+        <p class="product-desc">
+          Preparada cada mañana con arroz remojado, canela fresca, leche y un toque de vainilla. Cremosa, reconfortante y sin aditivos. Nuestra Horchata, orgullo guatemalteco, es el abrazo que necesitas en cualquier momento del día.
+        </p>
+        <ul class="product-tags">
+          <li>🌾 Arroz natural</li>
+          <li>🍂 Canela fresca</li>
+          <li>🌿 Vainilla artesanal</li>
+          <li>🥛 Sin gluten</li>
+        </ul>
+        <a href="#menu" class="btn btn-primary btn-product" id="horchata-menu-btn">Ver presentaciones →</a>
+      </div>
+    </div>
+
+    <!-- Jamaica Feature -->
+    <div class="product-feature product-jamaica">
+      <div class="product-feature-content order-first">
+        <div class="product-number">02</div>
+        <h3 class="product-name product-name--jamaica">Jamaica</h3>
+        <p class="product-tagline">Roja, floral e irresistible.</p>
+        <p class="product-desc">
+          Flor de Jamaica hervida lentamente con piloncillo y especias secretas. Un sabor profundo entre lo dulce y lo ácido que te deja queriendo más. Antioxidante, refrescante y perfecta para el calor de Guatemala.
+        </p>
+        <ul class="product-tags">
+          <li>🌺 Flor de Jamaica</li>
+          <li>🍯 Piloncillo natural</li>
+          <li>💧 Agua purificada</li>
+          <li>❤️ Antioxidante</li>
+        </ul>
+        <a href="#menu" class="btn btn-jamaica" id="jamaica-menu-btn">Ver presentaciones →</a>
+      </div>
+      <div class="product-feature-image">
+        <div class="product-img-bg product-img-bg--crimson"></div>
+        <img src="images/jamaica.png" alt="Agua de Jamaica" class="product-photo" />
+        <div class="product-float-tag tag-hibiscus">Flor de Jamaica</div>
+        <div class="product-float-tag tag-piloncillo">Piloncillo</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== EVENTS SECTION ====== -->
+  <section class="events-cta" id="eventos">
+    <div class="events-cta-bg"></div>
+    <div class="events-content">
+      <span class="section-tag events-tag">Eventos Especiales</span>
+      <h2 class="section-title events-title">Llevamos la <em>frescura</em> a tu evento</h2>
+      <p class="events-desc">
+        ¿Tienes una boda, convivio o reunión corporativa? Deleita a tus invitados con nuestra horchata y jamaica artesanal. Ofrecemos estaciones de bebidas personalizadas para que tu evento sea inolvidable.
+      </p>
+      <a href="https://wa.me/50232541519" class="btn btn-primary" target="_blank" rel="noopener">Cotizar para mi evento</a>
+    </div>
+  </section>
+
+  </section>
+
+  <!-- ====== NATURALIA EN CASA ====== -->
+  <section class="diy-section" id="en-casa">
+    <div class="diy-grid">
+      <div class="diy-content">
+        <span class="section-tag">Naturalia en Casa</span>
+        <h2 class="section-title">El sabor que ya conoces, <em>en polvos</em></h2>
+        <p class="about-text">
+          Lleva la esencia de Naturalia a donde quieras. Nuestras mezclas artesanales en polvo están listas para disfrutar en segundos.
+        </p>
+        <p class="about-text">
+           Solo necesitas mezclar con agua o leche y hielo para obtener la misma frescura y balance que servimos en nuestro local.
+        </p>
+        <a href="https://wa.me/50232541519" class="btn btn-outline" style="align-self: flex-start;">Pedir mis polvos</a>
+      </div>
+      <div class="diy-kits">
+        <div class="kit-card">
+          <span class="kit-tag">Horchata en Polvo</span>
+          <h4 class="kit-title">Mezcla Artesanal</h4>
+          <p class="kit-desc">Nuestra receta estrella lista para disolver en agua o leche. Cremosa y con el toque justo de canela.</p>
+          <div class="kit-price">Q45</div>
+        </div>
+        <div class="kit-card">
+          <span class="kit-tag">Jamaica en Polvo</span>
+          <h4 class="kit-title">Extracto Natural</h4>
+          <p class="kit-desc">Flor de Jamaica natural pulverizada con piloncillo. Disuelve en agua y disfruta al instante.</p>
+          <div class="kit-price">Q35</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ====== MENU SECTION ====== -->
+  <section class="menu-section" id="menu">
+    <div class="menu-bg"></div>
+    <div class="menu-inner">
+      <div class="section-header section-header--light">
+        <span class="section-tag section-tag--light">Nuestro Menú</span>
+        <h2 class="section-title section-title--light">Toda la <em>frescura</em> en un vaso</h2>
+      </div>
+      <div class="menu-grid menu-grid--two">
+
+        <div class="menu-card" id="menu-horchata-classic">
+          <div class="menu-card-icon" style="background: linear-gradient(135deg,#f5e6c8,#e8c99a)">&#x1F95B;</div>
+          <div class="menu-card-body">
+            <h4 class="menu-card-name">Horchata Artesanal</h4>
+            <p class="menu-card-desc">La receta tradicional de siempre. Arroz, canela y leche en perfecta armon&#237;a. Preparada cada d&#237;a con ingredientes frescos de Guatemala.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">Q25</span>
+              <span class="menu-card-size">500 ml</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" id="menu-jamaica-classic">
+          <div class="menu-card-icon" style="background: linear-gradient(135deg,#f7b8c4,#c0102b)">&#x1F33A;</div>
+          <div class="menu-card-body">
+            <h4 class="menu-card-name">Jamaica Natural</h4>
+            <p class="menu-card-desc">Flor de Jamaica hervida con piloncillo. Refrescante, antioxidante y 100% natural. El favorito guatemalteco.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">Q22</span>
+              <span class="menu-card-size">500 ml</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ====== ABOUT / NOSOTROS ====== -->
+  <section class="about" id="nosotros">
+    <div class="about-image-col">
+      <img src="images/ingredients.png" alt="Ingredientes naturales" class="about-img" />
+      <div class="about-stat-card about-stat-1">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Natural</div>
+      </div>
+      <div class="about-stat-card about-stat-2">
+        <div class="stat-number">0</div>
+        <div class="stat-label">Conservadores</div>
+      </div>
+    </div>
+    <div class="about-content-col">
+      <span class="section-tag">Nuestra Historia</span>
+      <h2 class="section-title">Tradición en <em>cada sorbo</em></h2>
+      <p class="about-text">
+        Naturalia nació en 2026 en Guatemala del amor por las bebidas que nos crecimos tomando: la horchata de la abuela, la jamaica del mercado. Nos preguntamos por qué algo tan perfecto y natural tenía que volverse industrial y artificial.
+      </p>
+      <p class="about-text">
+        Por eso decidimos hacer las cosas diferente desde Mixco. Cada día preparamos nuestras bebidas con ingredientes seleccionados, sin atajos y sin comprometer el sabor auténtico que hace que estas bebidas sean únicas.
+      </p>
+      <div class="about-pillars">
+        <div class="pillar">
+          <div class="pillar-icon">🌿</div>
+          <div>
+            <strong>Ingredientes naturales</strong>
+            <p>Solo usamos lo que la naturaleza provee, sin colorantes ni saborizantes artificiales.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">🤲</div>
+          <div>
+            <strong>Proceso artesanal</strong>
+            <p>Cada lote se prepara a mano, con las mismas técnicas de siempre.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">🌱</div>
+          <div>
+            <strong>Compromiso sostenible</strong>
+            <p>Proveedores locales, empaques reciclables y prácticas responsables.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ====== TESTIMONIALS ====== -->
+  <section class="testimonials">
+    <div class="section-header">
+      <span class="section-tag">Opiniones</span>
+      <h2 class="section-title">Lo que dicen de <em>nosotros</em></h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p class="testimonial-text">"La mejor horchata que he probado en años. Realmente se siente el sabor casero y la canela recién molida. 100% recomendada."</p>
+        <div class="testimonial-user">
+          <div class="testimonial-avatar">👤</div>
+          <div class="testimonial-info">
+            <h5>María G.</h5>
+            <span>Cliente recurrente</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">"El agua de Jamaica tiene el punto perfecto de dulce. Me encanta que usen piloncillo en lugar de azúcar refinada. Se nota la calidad."</p>
+        <div class="testimonial-user">
+          <div class="testimonial-avatar">👤</div>
+          <div class="testimonial-info">
+            <h5>Carlos R.</h5>
+            <span>Amante de lo natural</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-text">"Contratamos Naturalia para nuestra boda y fue un éxito total. El servicio fue impecable y a todos les encantaron las bebidas."</p>
+        <div class="testimonial-user">
+          <div class="testimonial-avatar">👤</div>
+          <div class="testimonial-info">
+            <h5>Lucía S.</h5>
+            <span>Novia feliz</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FAQ SECTION ====== -->
+  <section class="faq">
+    <div class="section-header">
+      <span class="section-tag">FAQ</span>
+      <h2 class="section-title">Preguntas <em>Frecuentes</em></h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">
+          ¿Hacen envíos a domicilio?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          Sí, realizamos envíos en Mixco y zonas aledañas de la Ciudad de Guatemala. Puedes coordinar tu pedido directamente a través de nuestro WhatsApp.
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          ¿Sus bebidas contienen azúcar añadida?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          Endulzamos nuestras bebidas de forma natural. La Jamaica utiliza piloncillo artesanal y la Horchata tiene un toque de vainilla y azúcar balanceada para mantener el sabor tradicional.
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          ¿Cuánto tiempo duran las bebidas?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          Al no utilizar conservadores, recomendamos consumirlas en las primeras 48-72 horas y mantenerlas siempre bien refrigeradas.
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          ¿Tienen opciones sin lácteos?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          Nuestra Jamaica es 100% vegana y libre de lácteos. Para la horchata personalizada para eventos, podemos ofrecer versiones con leche de almendras bajo pedido previo.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">NATURALIA</div>
+        <p class="footer-tagline">Bebidas naturales artesanales.<br />Tradición en cada sorbo.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Menú</h5>
+          <ul>
+            <li><a href="#menu">Horchata Artesanal</a></li>
+            <li><a href="#menu">Jamaica Natural</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Empresa</h5>
+          <ul>
+            <li><a href="#nosotros">Nuestra historia</a></li>
+            <li><a href="#ubicacion">Ubicaciones</a></li>
+            <li><a href="mailto:hola@naturalia.gt">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Síguenos</h5>
+          <ul>
+            <li><a href="https://instagram.com/naturalia_gt" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://wa.me/50232541519" target="_blank" rel="noopener">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Naturalia Guatemala. Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+  <!-- ====== CHATBOT ====== -->
+  <button class="chat-fab" id="chat-fab" aria-label="Abrir chat">
+    <span class="chat-fab-icon">🌺</span>
+    <span class="chat-fab-close">✕</span>
+    <span class="chat-fab-badge" id="chat-badge">1</span>
+  </button>
+
+  <div class="chat-panel" id="chat-panel" role="dialog" aria-label="Chat Naturalia">
+    <div class="chat-header">
+      <div class="chat-avatar">🌿</div>
+      <div class="chat-header-info">
+        <div class="chat-header-name">Nati · Asistente Naturalia</div>
+        <div class="chat-header-status">
+          <span class="chat-status-dot"></span>
+          En línea · Mixco, Guatemala
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-messages" id="chat-messages"></div>
+
+    <div class="chat-chips" id="chat-chips">
+      <button class="chat-chip" data-q="¿Qué es Naturalia?">¿Qué es Naturalia?</button>
+      <button class="chat-chip" data-q="¿Cómo se prepara la horchata?">🥛 Horchata</button>
+      <button class="chat-chip" data-q="¿Cómo se prepara la jamaica?">🌺 Jamaica</button>
+      <button class="chat-chip" data-q="¿Dónde están ubicados?">📍 Ubicación</button>
+      <button class="chat-chip" data-q="¿Cuáles son los precios?">💰 Precios</button>
+      <button class="chat-chip" data-q="¿Atienden eventos?">🎉 Eventos</button>
+      <button class="chat-chip" data-q="¿Usan ingredientes naturales?">🌿 Ingredientes</button>
+    </div>
+
+    <div class="chat-input-row">
+      <input
+        class="chat-input"
+        id="chat-input"
+        type="text"
+        placeholder="Escribe tu pregunta..."
+        autocomplete="off"
+        maxlength="200"
+      />
+      <button class="chat-send" id="chat-send" aria-label="Enviar">➤</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
