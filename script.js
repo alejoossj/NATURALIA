@@ -178,9 +178,9 @@
 
   // ── KB local de respuestas ──────────────────────────────────────────────────
   var KB_NATURALIA = [
-    { keys: ['horchata'], answer: '🥛 Nuestra Horchata Artesanal (Q25 / 500ml) se prepara cada mañana con arroz remojado, canela fresca, leche entera y vainilla natural. Todo molido y colado a mano, sin aditivos.' },
-    { keys: ['jamaica'], answer: '🌺 Nuestra Jamaica Natural (Q22 / 500ml): flor de Jamaica hervida lentamente con piloncillo artesanal. Antioxidante, floral, 100% vegana y natural.' },
-    { keys: ['precio', 'costo', 'cuánto', 'cuanto', 'quetzal'], answer: '💰 Precios:\n🥛 Horchata — Q25 / 500 ml\n🌺 Jamaica — Q22 / 500 ml' },
+    { keys: ['horchata'], answer: '🥛 Nuestra Horchata Artesanal se prepara cada mañana con arroz remojado, canela fresca, leche entera y vainilla natural. Todo molido y colado a mano, sin aditivos.' },
+    { keys: ['jamaica'], answer: '🌺 Nuestra Jamaica Natural: flor de Jamaica hervida lentamente con azúcar morena artesanal. Antioxidante, floral, 100% vegana y natural.' },
+    { keys: ['precio', 'costo', 'cuánto', 'cuanto', 'quetzal'], answer: '💰 Próximamente estaremos definiendo nuestros precios. Por favor contáctanos por WhatsApp para más información y estaremos encantados de atenderte.' },
     { keys: ['dónde', 'donde', 'ubicación', 'mixco'], answer: '📍 Estamos en Mixco, Guatemala. Atendemos de Lunes a Domingo de 8:00 a 19:00 hrs.' },
     { keys: ['historia', 'naturalia', 'quiénes', 'quienes', 'nació'], answer: '🌿 Naturalia es un emprendimiento guatemalteco fundado en 2026 en Mixco. Nacimos del amor por las bebidas artesanales tradicionales, sin conservadores y con ingredientes locales de la mejor calidad.' },
     { keys: ['ingrediente', 'natural', 'artesanal', 'conservador', 'químico'], answer: '🌿 Solo usamos ingredientes naturales de primera calidad. Sin conservadores, sin colorantes ni saborizantes artificiales. Preparados a mano diariamente.' },
@@ -191,7 +191,7 @@
     { keys: ['envío', 'domicilio', 'delivery', 'llevar', 'pedido'], answer: '🛵 Contamos con servicio a domicilio en Mixco y zonas seleccionadas de la Ciudad de Guatemala. Pide tus bebidas favoritas por WhatsApp.' },
     { keys: ['duración', 'tiempo', 'vence', 'echa a perder', 'refrigeración'], answer: '⌛ Al ser naturales y sin conservadores, nuestras bebidas duran de 48 a 72 horas bien refrigeradas. Recomendamos disfrutarlas bien frías.' },
     { keys: ['lácteo', 'leche', 'vegano', 'viva', 'sin leche'], answer: '🌺 Nuestra Jamaica es 100% vegana y libre de lácteos. La Horchata clásica contiene leche entera, pero para eventos podemos preparar versiones especiales sin lácteos.' },
-    { keys: ['casa', 'preparar', 'hacer', 'kit', 'diy', 'concentrado', 'paquete', 'polvo', 'polvos'], answer: '🏡 ¡Lleva el sabor a tu cocina! Vendemos **Naturalia en Casa (Mezclas en Polvo)**:\n🥛 **Horchata en Polvo (Q45):** Lista para mezclar con agua o leche.\n🌺 **Jamaica en Polvo (Q35):** Extracto natural con piloncillo.\n¡Ideales para disfrutar el sabor artesanal en segundos!' },
+    { keys: ['casa', 'preparar', 'hacer', 'kit', 'diy', 'concentrado', 'paquete', 'polvo', 'polvos', 'extracto'], answer: '🏡 ¡Lleva el sabor a tu cocina! Vendemos **Naturalia en Casa**:\n🥛 **Horchata en Polvo:** Lista para mezclar con agua o leche.\n🌺 **Extracto de Jamaica:** Extracto natural con azúcar morena.\n¡Ideales para disfrutar el sabor artesanal en segundos! Contáctanos por WhatsApp para pedidos.' },
   ];
 
   function normalize(s) {
